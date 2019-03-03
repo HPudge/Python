@@ -1,1 +1,1 @@
-# for-github
+#  For Python
