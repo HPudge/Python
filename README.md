@@ -8,4 +8,4 @@
  
  `TouTiao_jiepai` : requests 带参数请求今日头条，获得json数据，修改获得的url数据可以直接用requests下载高清图片，储存到每个标题的文件夹中，多线程运行。
  
- `bilibilicoments` :
+ `bilibilicoments` :     对哔哩哔哩的视频的弹幕进行爬取，获得弹幕文本后，利用jieba库对文本进行分词，分词后用WordCloud，matplotlib.pyplot词云图片
