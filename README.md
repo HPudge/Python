@@ -1,5 +1,7 @@
 # Python 3 Spider
 
+* `KFC` : 肯德基官网获取全国范围内开设餐厅的城市省份，根据结果爬取所有餐厅的信息，存为Excel，并将结果标注在全国地图上。
+
 * `bilibiliComments` : 对B站的视频的弹幕进行爬取，jieba分词，WordCloud生成词云图片。
 
 * `doubanSpider` : 根据含有书名的Excel文件逐条查找补充书目信息，爬取豆瓣上的出版社、出版时间、ISBN、定价、评分、评分人数等；整合到pandas进行简单分析。
