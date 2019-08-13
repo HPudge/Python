@@ -1,6 +1,6 @@
 # Python 3 Spider
 
-* `1688item - distributed` : scrapy-redis 分布式爬取阿里巴巴目标商品的信息和图片。
+* `1688item - distributed` : 利用ip代理池+分布式爬取阿里巴巴目标商家的信息，阿里巴巴限制每个ip的访问次数，所以需要用到ip 代理池，同时需要带cookie 访问。
 
 * `KFC` : 肯德基官网获取全国范围内开设餐厅的城市省份，根据结果爬取所有餐厅的信息，存为Excel，并将结果标注在全国地图上。
 
@@ -14,6 +14,8 @@
   
 * `WechatArticles`: 利用搜狗爬取微信文章的爬取。
  
-* `weiboSearchScrapy` ：scrapy框架爬取关键字搜索到的微博内容。
+* `weiboSearchScrapy` ：运用 cookie 池，爬取相关关键字微博的信息，微博反爬是判断的账号的，因此需要准备多个账号的cookie，当账号被屏蔽时，需要从cookies 池提取新的可用 cookie。
 
-* `zhihuUserScrapy` : scrapy框架爬取知乎用户信息。
+* `zhihuUserScrapy` : 基于Scrapy框架，设定一个用户为起点，获取关注和粉丝列表，然后同样遍历获得的用户。
+
+
